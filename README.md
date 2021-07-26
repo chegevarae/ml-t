@@ -13,49 +13,49 @@
 ML Projects Structure Template  
 |&nbsp;&nbsp;core  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_1  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;predict.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Код для загрузки модели и расчета метрик  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;preprocess.py&nbsp;&nbsp;&nbsp;&nbsp;- Код для препроцессинга и разбиения датасета  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;train.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Код для чтения параметров и обучение модели  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;predict.py - Код для загрузки модели и расчета метрик  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;preprocess.py - Код для препроцессинга и разбиения датасета  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;train.py - Код для чтения параметров и обучение модели  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_2  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
 |&nbsp;&nbsp;data  
-|&nbsp;&nbsp;|&nbsp;&nbsp;processed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Предобработанные данные  
-|&nbsp;&nbsp;|&nbsp;&nbsp;source&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Исходные данные для обработки (.csv файлы)  
+|&nbsp;&nbsp;|&nbsp;&nbsp;processed - Предобработанные данные  
+|&nbsp;&nbsp;|&nbsp;&nbsp;source - Исходные данные для обработки (.csv файлы)  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
 |&nbsp;&nbsp;dev  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_1  
-|&nbsp;&nbsp;|&nbsp;&nbsp;exp_1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Папка с результатами 1-го эксперемента  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;config.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Содержит все данные для запуска эксперимента  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;logs.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Логи, записанные в процессе обучения модели  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;metrics.json&nbsp;&nbsp;&nbsp;&nbsp;- Метрики и путь к данным, на которых они получены  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;model.pth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Обученная модель машинного обучения  
+|&nbsp;&nbsp;|&nbsp;&nbsp;exp_1 - Папка с результатами 1-го эксперемента  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;config.json - Содержит все данные для запуска эксперимента  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;logs.md - Логи, записанные в процессе обучения модели  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;metrics.json - Метрики и путь к данным, на которых они получены  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;model.pth - Обученная модель машинного обучения  
 |&nbsp;&nbsp;|&nbsp;&nbsp;exp_2  
-|&nbsp;&nbsp;|&nbsp;&nbsp;predict.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Код для загрузки модели и расчета метрик  
-|&nbsp;&nbsp;|&nbsp;&nbsp;preprocess.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Код для препроцессинга и разбиения датасета  
-|&nbsp;&nbsp;|&nbsp;&nbsp;train.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Код для чтения параметров и обучение модели  
+|&nbsp;&nbsp;|&nbsp;&nbsp;predict.py - Код для загрузки модели и расчета метрик  
+|&nbsp;&nbsp;|&nbsp;&nbsp;preprocess.py - Код для препроцессинга и разбиения датасета  
+|&nbsp;&nbsp;|&nbsp;&nbsp;train.py - Код для чтения параметров и обучение модели  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_2  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
 |&nbsp;&nbsp;extension  
-|&nbsp;&nbsp;|&nbsp;&nbsp;Changelog_Project_1.md&nbsp;&nbsp;- Changelog 1-го проекта  
-|&nbsp;&nbsp;|&nbsp;&nbsp;Changelog_Project_2.md&nbsp;&nbsp;- Changelog 2-го проекта  
-|&nbsp;&nbsp;|&nbsp;&nbsp;manifest.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Версия и описание для лейбла проекта  
+|&nbsp;&nbsp;|&nbsp;&nbsp;Changelog_Project_1.md - Changelog 1-го проекта  
+|&nbsp;&nbsp;|&nbsp;&nbsp;Changelog_Project_2.md - Changelog 2-го проекта  
+|&nbsp;&nbsp;|&nbsp;&nbsp;manifest.json - Версия и описание для лейбла проекта  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
-|&nbsp;&nbsp;images&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Картинки, которые используются в проектах  
+|&nbsp;&nbsp;images - Картинки, которые используются в проектах  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
-|&nbsp;&nbsp;notebook&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Директория для Jupyter Notebook файлов  
+|&nbsp;&nbsp;notebook - Директория для Jupyter Notebook файлов  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_1  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;project_1_baseline_1.ipynb  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;project_1_baseline_2.ipynb  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_2  
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
-|&nbsp;&nbsp;.gitignore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Скрытие файлов и папок от системы контроля версий  
-|&nbsp;&nbsp;config_sample.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Пример конфигурационного файла для запуска проекта  
-|&nbsp;&nbsp;data_connector.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Коннектор к БД для извлечения данных  
-|&nbsp;&nbsp;data_preprocessing.py&nbsp;&nbsp;&nbsp;&nbsp;- Библиотека для базовой предобработки данных  
+|&nbsp;&nbsp;.gitignore - Скрытие файлов и папок от системы контроля версий  
+|&nbsp;&nbsp;config_sample.py - Пример конфигурационного файла для запуска проекта  
+|&nbsp;&nbsp;data_connector.py - Коннектор к БД для извлечения данных  
+|&nbsp;&nbsp;data_preprocessing.py - Библиотека для базовой предобработки данных  
 |&nbsp;&nbsp;LICENSE  
-|&nbsp;&nbsp;main.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Файл для запуска проектов из консоли  
-|&nbsp;&nbsp;README.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Описание структуры проекта, окружения и информации  
-|&nbsp;&nbsp;requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Полный список зависимостей  
+|&nbsp;&nbsp;main.py - Файл для запуска проектов из консоли  
+|&nbsp;&nbsp;README.md - Описание структуры проекта, окружения и информации  
+|&nbsp;&nbsp;requirements.txt - Полный список зависимостей  
 
 Важно организовать код так, чтобы для проведения новых экспериментов требовалось лишь поменять параметры в конфигурационном файле, без изменения кода.  
 

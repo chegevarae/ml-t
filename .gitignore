@@ -1,14 +1,8 @@
 /__pycache__/
 /core/.ipynb_checkpoints/
 /core/__pycache__/
-/data/processed/*.txt
-/data/processed/*.csv
-/data/processed/*.lsx
-/data/processed/*.xlsx
-/data/source/*.txt
-/data/source/*.csv
-/data/source/*.lsx
-/data/source/*.xlsx
+/data/processed/*
+/data/source/*
 /dev/.ipynb_checkpoints/
 /dev/__pycache__/
 /notebooks/.ipynb_checkpoints/

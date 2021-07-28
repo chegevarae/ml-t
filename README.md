@@ -24,12 +24,12 @@ ML Projects Structure Template
 |&nbsp;&nbsp;|&nbsp;&nbsp;README.md  
 |&nbsp;&nbsp;dev  
 |&nbsp;&nbsp;|&nbsp;&nbsp;project_1  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;exp_1 - Папка с результатами 1-го эксперемента  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;config.json - Содержит все данные для запуска эксперимента  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;exp.1.0.1 - Папка с результатами 1-го эксперемента  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;config.yaml - Содержит все данные для запуска эксперимента  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;logs.md - Логи, записанные в процессе обучения модели  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;metrics.json - Метрики и путь к данным, на которых они получены  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;model.pth - Обученная модель машинного обучения  
-|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;exp_2  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;metrics.yaml - Метрики и путь к данным, на которых они получены  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;model - Обученная модель машинного обучения  
+|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;exp.1.0.2  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;predict.py - Код для загрузки модели и расчета метрик  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;preprocess.py - Код для препроцессинга и разбиения датасета  
 |&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;train.py - Код для чтения параметров и обучение модели  
